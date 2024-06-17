@@ -73,22 +73,22 @@
 * CV Header :ignore:
 ** Photo & Tagline :ignore:
 #+begin_export latex
-\name{Aidan Scannell}
+\name{Igor de Souza Carvalhal Primo}
 \photoR{2.8cm}{aidan_portrait.jpeg}
-\tagline{PhD Researcher}
+\tagline{Linux Administrator}
 #+end_export
 
 ** Personal Info :ignore:
 #+begin_export latex
 \personalinfo{
-  \homepage{www.aidanscannell.com}
-  \email{scannell.aidan@gmail.com}
-  \phone{+44 787 558 3912}
-  \location{Bristol, UK}
-  \github{aidanscannell}
-  \linkedin{aidan-scannell-82522789/}
-  \dob{22 April 1994}
-  \driving{UK Driving Licence}
+  %\homepage{www.aidanscannell.com}
+  \email{igorprimo62@gmail.com}
+  \phone{+55 (79) 999657773}
+  \location{Aracaju, SE}
+  \github{igor-primo}
+  %\linkedin{}
+  \dob{20 Outubro 1999}
+  %\driving{UK Driving Licence}
 }
 \makecvheader
 #+end_export
@@ -97,6 +97,7 @@
 #+begin_export latex
 \begin{paracol}{2}
 #+end_export
+
 ** Personal Statement Secondmind :ignore:noexport:
 #+begin_export latex
  \begin{quote}
@@ -164,7 +165,7 @@ Alongside my PhD I have assisted teaching:
 {{{cvtag(Teamwork)}}}
 {{{cvtag(Industry)}}}
 
-** Publications
+** Publications :noexport:
 #+begin_export latex
 \nocite{*}
 % \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
@@ -220,7 +221,6 @@ Alongside my PhD I have assisted teaching:
 {{{cvtag(Probabilistic geometries)}}}
 {{{cvtag(Optimal control)}}}
 
-
 *** SVGP :ignore:
 {{{par-div}}}
 
@@ -272,8 +272,7 @@ Alongside my PhD I have assisted teaching:
 
 ** Newpage :ignore:noexport:
 {{{new-page}}}
-
-** Volunteering
+** Volunteering :noexport:
 *** FARSCOPE Course Rep :ignore:
 {{{cvevent(Cohort Representative, FARSCOPE CDT, Sept 2018 - Ongoing, Bristol\, UK)}}}
 # - I represent myself and fellow CDT students in management meetings where I communicate ideas and information between students and management.
@@ -329,7 +328,7 @@ Each year, as part of Formula Student, students design, build and race a single 
 {{{cvtag(Leadership)}}}
 {{{cvtag(Time Management)}}}
 
-** Invited Talks
+** Invited Talks :noexport:
 *** Geometry Talk :ignore:
 {{{cvevent(Synergising Bayesian Inference and Probabilistic Geometries for Robotic Control, Cognitive Systems - Technical University of Denmark (DTU), 18 March 2021, Zoom)}}}
 # - Presented a method for controlling multimodal dynamical systems synergising Bayesian inference and probabilistic geometries.
@@ -346,14 +345,8 @@ Each year, as part of Formula Student, students design, build and race a single 
 #+end_export
 
 ** Skills
-{{{cvtag(Python)}}}
-{{{cvtag(TensorFlow)}}}
-{{{cvtag(GPflow)}}}
-{{{cvtag(JAX)}}}
-{{{cvtag(NumPy)}}}
-{{{cvtag(SciPy)}}}
-{{{cvtag(Matplotlib)}}}
-{{{cvtag(GPy)}}}
+
+{{{cvtag(Linux Administration)}}}
 
 {{{divider}}}
 
@@ -364,10 +357,9 @@ Each year, as part of Formula Student, students design, build and race a single 
 
 {{{divider}}}
 
-
 {{{cvtag(Git/GitHub)}}}
-{{{cvtag(LaTeX)}}}
-{{{cvtag(Org-mode)}}}
+{{{cvtag(Emacs)}}}
+{{{cvtag(VIM)}}}
 
 ** Education
 {{{cvevent(PhD\ in Bayesian Machine Learning for Robotic Control, University of Bristol, Sept 2018 - Ongoing,)}}}
@@ -383,20 +375,13 @@ Each year, as part of Formula Student, students design, build and race a single 
 
 {{{divider}}}
 
-# {{{cvevent(M.Res.\ in Robotics \& Autonomous Systems, University of Bristol | First Class Honours, Sept 2017 -- Sept 2018,)}}}
-# {{{cvevent(a \footnote{Not official - will be awarded if Ph.D. is not completed.} M.Res.\ in Robotics \& Autonomous Systems,University of Bristol,Sept 2017 -- Sept 2018,)}}}
-#+BEGIN_EXPORT latex
-\cvevent{\footnote{Awarded if PhD is not completed.} MRes in Robotics \& Autonomous Systems}{University of Bristol | First Class Honours}{Sept 2017 -- Sept 2018}{}
-#+END_EXPORT
-# - First Class Honours
-- \faBook [[https://www.aidanscannell.com/project/uncertain-agentspeak/][Extending BDI Agents to Model and Reason with Uncertainty]]
-
+# #+BEGIN_EXPORT latex
+# \cvevent{\footnote{Awarded if PhD is not completed.} MRes in Robotics \& Autonomous Systems}{University of Bristol | First Class Honours}{Sept 2017 -- Sept 2018}{}
+# #+END_EXPORT
 
 {{{divider}}}
 
 {{{cvevent(MEng in Mechanical Engineering, University of Bristol | First Class Honours, Sept 2012 -- June 2016,)}}}
-# - First Class Honours \\
-- Graduated in top 10% of cohort
 
 ** Newpage :ignore:
 #+BEGIN_EXPORT latex
