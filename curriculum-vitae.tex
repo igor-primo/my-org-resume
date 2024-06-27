@@ -1,4 +1,4 @@
-% Created 2024-06-17 seg 13:09
+% Created 2024-06-27 qui 12:36
 % Intended LaTeX compiler: pdflatex
 \documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
 
@@ -45,12 +45,13 @@
 
 \author{Aidan Scannell}
 \date{\today}
-\title{}
+\title{Org Resume}
 \begin{document}
+
 
 \name{Igor de Souza Carvalhal Primo}
 \photoR{2.8cm}{aidan_portrait.jpeg}
-\tagline{Linux Administrator}
+\tagline{Web Developer}
 
 \personalinfo{
   %\homepage{www.aidanscannell.com}
@@ -58,7 +59,7 @@
   \phone{+55 (79) 999657773}
   \location{Aracaju, SE}
   \github{igor-primo}
-  %\linkedin{}
+  \linkedin{www.linkedin.com/in/igor-primo}
   \dob{20 Outubro 1999}
   %\driving{UK Driving Licence}
 }
@@ -67,90 +68,86 @@
 \begin{paracol}{2}
 
 \begin{quote}
-``I am a PhD researcher with interests at the intersection of probabilistic machine learning and control theory. A great deal of my work focuses on Bayesian non-parametric methods, specifically Gaussian processes, variational inference and decision-making under uncertainty.''
+ ``Desenvolvimento é uma corrida contra o universo: desenvolvedores fazem programas idiot-proof, o universo produz idiotas (Rick Cook). Meus programas idiot-proof são normalmente escritos em React ou Node.js. Mas nenhuma curva de aprendizado é íngrime para eternos estudantes.''
 \end{quote}
-\cvsection{Experience}
-\label{sec:orgad5079f}
-\cvevent{PhD Researcher}{ University of Bristol}{Sept 2018 -- Ongoing}{ Bristol, UK}
+\cvsection{Experiência}
+\label{sec:orgb4db928}
+\cvevent{Engenheiro DevOps}{ Tribunal do Trabalho da 20a Região}{ Out 2022 -- Agora}{ Aracaju, SE}
 
-Researching methods for data-efficient learning and control in multimodal dynamical systems. EPSRC Centre for Doctoral Training in Future Autonomous and Robotic Systems (FARSCOPE).
+Nessa posição, pratiquei os fundamentos da cultura DevOps, enriquecendo minhas habilidades de desenvolvimento.
+Aprendi a configurar e utilizar pipelines CI/CD com o Gitlab.
 
-\cvtag{Probabilistic modelling}
-\cvtag{Gaussian processes}
-\cvtag{Variational inference}
-\cvtag{Optimal control}
-\cvtag{Trajectory optimisation}
+Atuei também como administrador de sistemas.
 
+Minhas realizações:
+\begin{itemize}
+\item Instalação de um cluster Kubernetes utilizando Ansible.
+\item Instalação e configuração de instâncias de softwares para homologação no novo ambiente Kubernetes, como
+Gitlab, Grafana e Prometheus.
+\item Provisionamento automatizado de servidores através de Terraform em um nó Proxmox on-premises.
+\item Elaboração de documentação dos processos de instalação e dos arquivos de configuração desses softwares
+para disseminação de conhecimento entre os membros da equipe.
+\end{itemize}
+
+\cvtag{Kubernetes}
+\cvtag{Linux Administration}
+\cvtag{Ansible}
+\cvtag{ITIL}
+\cvtag{Shell}
+\cvtag{Virtualization}
 \par\divider
-\cvevent{Teaching Assistant}{ University of Bristol}{Sept 2018 -- Ongoing}{ Bristol, UK}
+\cvevent{Desenvolvedor}{ Universidade Federal de Sergipe}{ Set 2021 -- Ago 2022}{ Aracaju, SE}
 
-Alongside my PhD I have assisted teaching:
+Atuou como desenvolvedor back-end. Realizações:
 \begin{itemize}
-\item \href{https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=19\%2F20\&unitCode=COMS30007}{Machine Learning COMS30007}
-\item \href{https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=19\%2F20\&unitCode=COMSM0012}{Robotic Systems COMSM0012}
-\item \href{https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=19/20\\\&unitCode=EMATM0042}{Intelligent Information Systems EMATM0042}
+\item Desenvolveu uma API RESTful em Node.js como componente para uma aplicação de fomento ao consumo consciente.
+\item Configurou banco de dados PostgreSQL e gerenciou dados da aplicação, realizando migrações e modificações adequadas quando necessárias.
+\item Realizou análise de requisitos e de conformidade do software para com os seus requisitos.
 \end{itemize}
 
-\cvtag{Communication}
-\cvtag{Active listening}
-\cvtag{Teaching}
-
-\cvsection{Projects}
-\label{sec:org9a608c6}
-\cvevent{Optimal Control in Multimodal Dynamical Systems as Probabilistic Inference}{ University of Bristol}{ May 2021 - Ongoing}{ Bristol, UK}
-
-\begin{itemize}
-\item Developing data-efficient techniques for exploration in multimodal dynamical systems.
-\item The goal of this project is to explore a single dynamics mode that is known to be operatable whilst avoiding other modes.
-\end{itemize}
-
-\cvtag{Variational inference}
-\cvtag{Gaussian processes}
-\cvtag{Optimal control}
+\cvtag{Node.js}
+\cvtag{Docker}
+\cvtag{Git}
+\cvtag{PostgreSQL}
+\cvtag{Metodologias Ágeis}
 
 \newpage
 
-\cvsection{Projects (Cont.)}
-\label{sec:orgc68e1bd}
-\cvevent{Trajectory Optimisation in Learned Multimodal Dynamical Systems}{ University of Bristol}{ Sept 2019 - March 2021}{ Bristol, UK}
-
-\begin{itemize}
-\item Synergising Bayesian inference and Riemannian geometry to control multimodal dynamical systems.
-\item Finds trajectories that 1) remain in a desired dynamics mode, 2) avoid regions of the dynamics with high epistemic uncertainty.
-\item \href{https://github.com/aidanscannell/trajectory-optimisation-in-learned-multimodal-dynamical-systems}{\faGithub aidanscannell/trajectory-optimisation-in-learned-multimodal-dynamical-systems}
-\end{itemize}
-
-\cvtag{JAX}
-\cvtag{Probabilistic geometries}
-\cvtag{Optimal control}
-\par\divider
-
-\cvevent{Identifiable Mixtures of Sparse Variational Gaussian Process Experts}{ University of Bristol}{ Sept 2018 - Ongoing}{ Bristol, UK}
-
-\begin{itemize}
-\item Improving identifiability and scalability in the Mixtures of Gaussian Process Experts model with GP-based gating networks.
-\item Variational inference based on sparse GP approximations.
-\item \href{https://github.com/aidanscannell/mogpe}{\faGithub aidanscannell/mogpe}
-\end{itemize}
-
-\cvtag{GPflow}
-\cvtag{TensorFlow}
-\cvtag{Gaussian processes}
-\cvtag{Variational inference}
-
 \switchcolumn
 
-\cvsection{Skills}
-\label{sec:orge8c5718}
+\cvsection{Projetos}
+\label{sec:orgfa011a6}
+\cvevent{Petri}{ Universidade Federal de Sergipe}{ Jan 2022 - Jan 2023}{ Aracaju, SE}
 
-\cvtag{Linux Administration}
+Sistema web e mobile que busca encurtar o tempo de comunicação entre a equipe laboratorial e a equipe assistencial do Hospital Universitário de Sergipe, aumentando a eficácia no tratamento antibiótico.
+
+A aplicação está em \url{https://petrisaude.netlify.app/signin}
+
+\cvtag{Node.js}
+\cvtag{Docker}
+\cvtag{Git}
+\cvtag{PostgreSQL}
+\cvtag{Metodologias Ágeis}
+\cvtag{Trabalho em Equipe}
+\cvtag{Levantamento de Requisitos}
+
+\cvsection{Habilidades}
+\label{sec:org23d2fa3}
+
+\cvtag{Node.js}
+\cvtag{React}
+\cvtag{React-Native}
+\cvtag{MongoDB}
+\cvtag{PostgreSQL}
+\cvtag{Java}
+\cvtag{C}
 
 \divider
 
-\cvtag{Java}
-\cvtag{C++}
-\cvtag{MATLAB}
-\cvtag{ROS}
+\cvtag{DevOps}
+\cvtag{Linux Administration}
+\cvtag{Kubernetes}
+\cvtag{AWS}
 
 \divider
 
@@ -158,68 +155,19 @@ Alongside my PhD I have assisted teaching:
 \cvtag{Emacs}
 \cvtag{VIM}
 
-\cvsection{Education}
-\label{sec:org0544ba4}
-\cvevent{PhD\ in Bayesian Machine Learning for Robotic Control}{ University of Bristol}{ Sept 2018 - Ongoing}{}
-\begin{itemize}
-\item \faBook Probabilistic Inference for Learning and Control in Multimodal Dynamical Systems
-\end{itemize}
-
 \divider
 
-\cvevent{Gaussian Process and Uncertainty Quantification Summer School (GPSS)}{ University of Sheffield}{ Sept 2019 - Sept 2019}{}
+\cvtag{OpenBSD}
+\cvtag{Haskell}
+\cvtag{Obelisk}
+\cvtag{IHP}
 
-\divider
+\cvsection{Formação}
+\label{sec:org3d2afc6}
 
-\cvevent{Machine Learning Summer School Moscow (MLSS)}{ Skoltech}{ Aug 2019 - Sept 2019}{}
-
-\divider
-
-\cvevent{\footnote{Awarded if PhD is not completed.} MRes in Robotics \& Autonomous Systems}{University of Bristol | First Class Honours}{Sept 2017 -- Sept 2018}{}
-
-\begin{itemize}
-\item \faBook \href{https://www.aidanscannell.com/project/uncertain-agentspeak/}{Extending BDI Agents to Model and Reason with Uncertainty}
-\end{itemize}
-
-
-\divider
-
-\cvevent{MEng in Mechanical Engineering}{ University of Bristol | First Class Honours}{ Sept 2012 -- June 2016}{}
-
-\begin{itemize}
-\item Graduated in top 10\% of cohort
-\end{itemize}
+\cvevent{Ciência de Computação}{ Universidade Federal de Sergipe}{ 2018 - Agora}{}
 
 \newpage
-
-\cvsection{Achievements}
-\label{sec:orgf55c4be}
-\cvachievement{\faTrophy}{ Full Sporting Colours}{ Awarded full colours for outstanding achievements in snowboarding. Multiple gold medals in British University Snowboard Championships.}{}
-
-\divider
-
-\cvachievement{\faCertificate}{ Starting To Teach}{ Established myself as a confident, enthusiastic and effective teacher who is able to engage, encourage and develop students' learning.}{}
-
-\divider
-
-\cvachievement{\faTrophy}{Bristol Plus Award}{ For undertaking a wide range of tasks to further enhance student skills - only 700 out of 23,000 achieved this award per annum.}{}
-
-\divider
-
-\cvachievement{\faCertificate}{ Mary Jones Prize for Mathematics}{ For outstanding achievements in A Level mathematics @ Ripon Grammar School}{}
-
-\divider
-
-\cvachievement{\faTrophy}{ The Duke of Edinburgh's Award}{ Bronze/Silver/Gold}{}
-
-\cvsection{References}
-\label{sec:org58b95dd}
-% \cvref{name}{email}{mailing address}
-\cvref{Prof.\ Arthur Richards}{University of Bristol}{arthur.richards@bristol.ac.uk}
-% {Address Line 1\\Address line 2}
-\divider
-\cvref{Dr.\ Carl Henrik Ek}{University of Cambridge}{che29@cam.ac.uk}
-% {Address Line 1\\Address line 2}
 
 \end{paracol}
 \end{document}
