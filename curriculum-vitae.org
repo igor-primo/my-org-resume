@@ -78,7 +78,7 @@
 #+begin_export latex
 \name{Igor de Souza Carvalhal Primo}
 \photoR{2.8cm}{ego.jpeg}
-\tagline{Full-Stack Developer | Back-End Developer | DevOps Engineer}
+\tagline{DevOps Engineer}
 #+end_export
 
 ** Personal Info :ignore:
@@ -117,11 +117,12 @@
 *** Engenheiro DevOps :ignore:
 {{{cvevent(Engenheiro DevOps, Tribunal do Trabalho da 20a Região, Out 2022 -- Agora, Aracaju\, SE)}}}
 
-Nessa posição, para enriquecer minhas habilidades de desenvolviemnto, pratiquei os fundamentos de DevOps.
-
-Atuei também como administrador de sistemas.
+Nessa posição, atuei majoritariamente como administrador de sistemas, com foco nos processos de DevOps.
 
 Minhas realizações:
+- Desenvolvi scrips de Powershell para automação de atividades do WSUS e do Active Directory.
+- Executei processo de hardening em servidores Windows, atualizando e reconfigurando softwares para remover vulnerabilidades ou mitigá-las.
+- Elaborei e apresentei para Divisão de Infraestrutura uma política de Gestão de Segurança de Informação com elaboração de processos que aumentem e mantenham o nível de endurecimento dos servidores.
 - Instalei um cluster Kubernetes utilizando Ansible.
 - Instalei e configurei instâncias de softwares para homologação no novo ambiente Kubernetes, como Gitlab, Grafana e Prometheus.
 - Automatizei o provisionamento de servidores através de Terraform em um nó Proxmox on-premises.
@@ -147,10 +148,6 @@ Atuei como desenvolvedor back-end.
 
 Minhas realizações:
 - Desenvolvi a API RESTful para uma aplicação que possibilita a comunicação rápida entre as equipes laboratorial e assistencial de um hospital, permitindo a troca de informações a respeito de resultados de exames e a devida dosagem de antibióticos.
-- Realizei busca de anterioridade da proposta.
-- Realizei levantamento de requisitos funcionais e não-funcionais da aplicação, junto com descrição de casos de uso e modelagem.
-- Assisti na elaboração de Business Model Canvas e do Pitch.
-- Defini e montei ambientes de desenvolvimento e homologação.
 - Configurei banco de dados PostgreSQL e gerenciei dados da aplicação, realizando migrações e modificações adequadas quando necessárias.
 
 {{{cvtag(Node.js)}}}

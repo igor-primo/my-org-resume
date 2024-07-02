@@ -1,0 +1,218 @@
+% Created 2024-07-02 ter 17:49
+% Intended LaTeX compiler: pdflatex
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+
+% Change the page layout if you need to
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+% Use roboto and lato for fonts
+\renewcommand{\familydefault}{\sfdefault}
+
+% Change the colours if you want to
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{DarkPastelRed}{HTML}{450808}
+\definecolor{PastelRed}{HTML}{8F0D0D}
+\definecolor{GoldenEarth}{HTML}{E7D192}
+\colorlet{name}{black}
+\colorlet{tagline}{PastelRed}
+\colorlet{heading}{DarkPastelRed}
+\colorlet{headingrule}{GoldenEarth}
+\colorlet{subheading}{PastelRed}
+\colorlet{accent}{PastelRed}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change some fonts, if necessary
+\renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+\renewcommand{\personalinfofont}{\footnotesize}
+\renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+\renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+% Change the bullets for itemize and rating marker
+% for cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\usepackage[rm]{roboto}
+\usepackage[defaultsans]{lato}
+\usepackage{paracol}
+\columnratio{0.6} % Set the left/right column width ratio to 6:4.
+\usepackage[bottom]{footmisc}
+\DeclareNameAlias{sortname}{given-family}
+\addbibresource{aidan.bib}
+\usepackage[sorting=none,sortcites=true,doi=false,url=false,giveninits=true,hyperref]{biblatex}
+
+\author{Igor Primo}
+\date{\today}
+\title{Org Resume}
+\begin{document}
+
+\name{Igor de Souza Carvalhal Primo}
+\photoR{2.8cm}{ego.jpeg}
+\tagline{DevOps Engineer}
+\personalinfo{
+  %\homepage{www.aidanscannell.com}
+  \email{igorprimo62@gmail.com}
+  \phone{+55 (79) 999657773}
+  \location{Aracaju, SE}
+  \github{igor-primo}
+  \linkedin{www.linkedin.com/in/igor-primo}
+  \dob{20 Outubro 1999}
+  %\driving{UK Driving Licence}
+}
+\makecvheader
+\begin{paracol}{2}
+\begin{quote}
+ ``Eu transformo suas ideias em software correto e de baixa manutenção, e transformo o estresse do seu processo de desenvolvimento, e de entrega para o usuário, em flow.''
+\end{quote}
+\cvsection{Experiência}
+\label{sec:org3ecf558}
+\cvevent{Engenheiro DevOps}{ Tribunal do Trabalho da 20a Região}{ Out 2022 -- Agora}{ Aracaju, SE}
+
+Nessa posição, para enriquecer minhas habilidades de desenvolviemnto, pratiquei os fundamentos de DevOps.
+
+Atuei também como administrador de sistemas.
+
+Minhas realizações:
+\begin{itemize}
+\item Desenvolvi scrips de Powershell para automação de atividades do WSUS e do Active Directory.
+\item Executei processo de hardening em servidores Windows, atualizando e reconfigurando softwares para remover vulnerabilidades ou mitigá-las.
+\item Elaborei e apresentei para Divisão de Infraestrutura uma política de Gestão de Segurança de Informação com elaboração de processos que aumentem e mantenham o nível de endurecimento dos servidores.
+\item Instalei um cluster Kubernetes utilizando Ansible.
+\item Instalei e configurei instâncias de softwares para homologação no novo ambiente Kubernetes, como Gitlab, Grafana e Prometheus.
+\item Automatizei o provisionamento de servidores através de Terraform em um nó Proxmox on-premises.
+\item Elaborei a documentação dos processos de instalação e dos arquivos de configuração desses softwares para disseminação de conhecimento entre os membros da equipe.
+\item Construí e testei pipelines CI/CD.
+\end{itemize}
+
+\cvtag{Kubernetes}
+\cvtag{Helm}
+\cvtag{Linux Administration}
+\cvtag{Ansible}
+\cvtag{ITIL}
+\cvtag{Shell}
+\cvtag{Virtualization}
+\cvtag{Grafana}
+\cvtag{Prometheus}
+\cvtag{CI/CD}
+
+\par\divider
+\cvevent{Desenvolvedor Back-End}{ Universidade Federal de Sergipe}{ Jan 2022 -- Jan 2023}{ Aracaju, SE}
+
+Atuei como desenvolvedor back-end.
+
+Minhas realizações:
+\begin{itemize}
+\item Desenvolvi a API RESTful para uma aplicação que possibilita a comunicação rápida entre as equipes laboratorial e assistencial de um hospital, permitindo a troca de informações a respeito de resultados de exames e a devida dosagem de antibióticos.
+\item Configurei banco de dados PostgreSQL e gerenciei dados da aplicação, realizando migrações e modificações adequadas quando necessárias.
+\end{itemize}
+
+\cvtag{Node.js}
+\cvtag{Docker}
+\cvtag{Git}
+\cvtag{PostgreSQL}
+\cvtag{Netlify}
+\cvtag{Render}
+\cvtag{Metodologias Ágeis}
+
+\newpage
+
+\par\divider
+\cvevent{Desenvolvedor Back-End}{ Universidade Federal de Sergipe}{ Set 2021 -- Ago 2022}{ Aracaju, SE}
+
+Atuei como desenvolvedor back-end. Minhas realizações:
+\begin{itemize}
+\item Desenvolvi uma API RESTful em Node.js como componente para uma aplicação de fomento ao consumo consciente.
+\item Configurei banco de dados PostgreSQL e gerenciou dados da aplicação, realizando migrações e modificações adequadas quando necessárias.
+\item Realizei análise de requisitos e de conformidade do software para com os seus requisitos.
+\end{itemize}
+
+\cvtag{Node.js}
+\cvtag{Docker}
+\cvtag{Git}
+\cvtag{PostgreSQL}
+\cvtag{Metodologias Ágeis}
+\newpage
+\switchcolumn
+\cvsection{Projetos}
+\label{sec:orgefac9da}
+\cvevent{Petri}{ Universidade Federal de Sergipe}{ Jan 2022 - Jan 2023}{ Aracaju, SE}
+
+Sistema web e mobile que busca encurtar o tempo de comunicação entre a equipe laboratorial e a equipe assistencial do Hospital Universitário de Sergipe, aumentando a eficácia no tratamento antibiótico.
+
+A aplicação está em \url{https://petrisaude.netlify.app/signin}
+
+\cvtag{Node.js}
+\cvtag{Docker}
+\cvtag{Git}
+\cvtag{PostgreSQL}
+\cvtag{Metodologias Ágeis}
+\cvtag{Trabalho em Equipe}
+\cvtag{Levantamento de Requisitos}
+
+\divider
+\cvsection{Habilidades}
+\label{sec:org38971dd}
+
+\cvtag{Node.js}
+\cvtag{JavaScript}
+\cvtag{PureScript}
+\cvtag{TypeScript}
+\cvtag{React}
+\cvtag{React-Native}
+\cvtag{MongoDB}
+\cvtag{PostgreSQL}
+\cvtag{Java}
+\cvtag{C}
+
+\divider
+
+\cvtag{DevOps}
+\cvtag{Linux Administration}
+\cvtag{Kubernetes}
+\cvtag{Helm}
+\cvtag{AWS}
+\cvtag{Terraform}
+
+\divider
+
+\cvtag{Git/GitHub}
+\cvtag{Emacs}
+\cvtag{VIM}
+
+\divider
+
+\cvtag{OpenBSD}
+\cvtag{Haskell}
+\cvtag{Obelisk}
+\cvtag{IHP}
+
+\divider
+\cvsection{Formação}
+\label{sec:org3a2df5e}
+
+\cvevent{Engenharia de Computação}{ Universidade Federal de Sergipe}{ 2018 - Agora}{}
+
+\cvevent{Curso de Inglês Avançado}{ Yázigi}{ 2016 - 2018}{}
+\newpage
+\cvsection{Línguas}
+
+\cvskill{Português}{5}
+\divider
+
+\cvskill{Inglês}{5}
+\divider
+
+\cvskill{Espanhol}{3}
+\divider
+
+% %% Yeah I didn't spend too much time making all the
+% %% spacing consistent... sorry. Use \smallskip, \medskip,
+% %% \bigskip, \vpsace etc to make ajustments.
+% \medskip
+
+\newpage
+\end{paracol}
+\end{document}
+\end{document}
