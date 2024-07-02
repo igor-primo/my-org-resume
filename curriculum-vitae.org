@@ -135,6 +135,9 @@ Minhas realizações:
 {{{cvtag(ITIL)}}}
 {{{cvtag(Shell)}}}
 {{{cvtag(Virtualization)}}}
+{{{cvtag(Grafana)}}}
+{{{cvtag(Prometheus)}}}
+{{{cvtag(CI/CD)}}}
 
 *** Desenvolvedor :ignore:
 {{{par-div}}}
@@ -154,6 +157,8 @@ Minhas realizações:
 {{{cvtag(Docker)}}}
 {{{cvtag(Git)}}}
 {{{cvtag(PostgreSQL)}}}
+{{{cvtag(Netlify)}}}
+{{{cvtag(Render)}}}
 {{{cvtag(Metodologias Ágeis)}}}
 
 *** Desenvolvedor :ignore:
@@ -445,6 +450,7 @@ A aplicação está em https://petrisaude.netlify.app/signin
 ** Habilidades
 
 {{{cvtag(Node.js)}}}
+{{{cvtag(JavaScript)}}}
 {{{cvtag(PureScript)}}}
 {{{cvtag(TypeScript)}}}
 {{{cvtag(React)}}}
