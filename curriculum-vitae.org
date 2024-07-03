@@ -387,7 +387,7 @@ Each year, as part of Formula Student, students design, build and race a single 
 ** Projetos
 *** Laboratório Kubernetes :ignore:
 
-{{{cvevent(Laboratório de Proxmox, Tribunal Regional do Trabalho da 20a Região, Abr 2023 - Jul 2023, Aracaju\, SE)}}}
+{{{cvevent(Laboratório de Kubernetes, Tribunal Regional do Trabalho da 20a Região, Abr 2023 - Jul 2023, Aracaju\, SE)}}}
 
 Documentação do processo de levantamento de um cluster Kubernetes para homologação de softwares como Prometheus, Grafana e Gitlab no TRT20 em um nó Proxmox.
 Foi utilizado um playbook Ansible.
