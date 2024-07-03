@@ -385,7 +385,7 @@ Each year, as part of Formula Student, students design, build and race a single 
 #+end_export
 
 ** Projetos
-*** Petri :ignore:
+*** Laboratório Kubernetes :ignore:
 
 {{{cvevent(Laboratório de Proxmox, Tribunal Regional do Trabalho da 20a Região, Abr 2023 - Jul 2023, Aracaju\, SE)}}}
 
@@ -401,9 +401,10 @@ Acesso: https://github.com/igor-primo/lab-proxmox-doc
 {{{cvtag(Prometheus)}}}
 {{{cvtag(Gitlab)}}}
 {{{cvtag(Documentação)}}}
-{{{cvtag(Shell)}}}
 
 {{{divider}}}
+
+*** Petri :ignore:
 
 {{{cvevent(Petri, Universidade Federal de Sergipe, Jan 2022 - Jan 2023, Aracaju\, SE)}}}
 
@@ -484,6 +485,11 @@ A aplicação está em https://petrisaude.netlify.app/signin
 
 {{{divider}}}
 
+** Newpage :ignore:
+#+BEGIN_EXPORT latex
+\newpage
+#+END_EXPORT
+
 ** Formação
 
 {{{cvevent(Engenharia de Computação, Universidade Federal de Sergipe, 2018 - Agora,)}}}
@@ -510,11 +516,6 @@ A aplicação está em https://petrisaude.netlify.app/signin
 # {{{divider}}}
 
 # {{{cvevent(MEng in Mechanical Engineering, University of Bristol | First Class Honours, Sept 2012 -- June 2016,)}}}
-
-** Newpage :ignore:
-#+BEGIN_EXPORT latex
-\newpage
-#+END_EXPORT
 
 ** Filosofia de Vida :ignore:
 # #+begin_export latex
