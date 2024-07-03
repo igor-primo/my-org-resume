@@ -382,6 +382,24 @@ Each year, as part of Formula Student, students design, build and race a single 
 ** Projetos
 *** Petri :ignore:
 
+{{{cvevent(Laboratório de Proxmox, Tribunal Regional do Trabalho da 20a Região, Abr 2023 - Jul 2023, Aracaju\, SE)}}}
+
+Documentação do processo de levantamento de um cluster Kubernetes para homologação de softwares como Prometheus, Grafana e Gitlab no TRT20 em um nó Proxmox.
+Foi utilizado um playbook Ansible.
+
+Acesso: https://github.com/igor-primo/lab-proxmox-doc
+
+{{{cvtag(Kubernetes)}}}
+{{{cvtag(Helm)}}}
+{{{cvtag(Ansible)}}}
+{{{cvtag(Grafana)}}}
+{{{cvtag(Prometheus)}}}
+{{{cvtag(Gitlab)}}}
+{{{cvtag(Documentação)}}}
+{{{cvtag(Shell)}}}
+
+{{{divider}}}
+
 {{{cvevent(Petri, Universidade Federal de Sergipe, Jan 2022 - Jan 2023, Aracaju\, SE)}}}
 
 Sistema web e mobile que busca encurtar o tempo de comunicação entre a equipe laboratorial e a equipe assistencial do Hospital Universitário de Sergipe, aumentando a eficácia no tratamento antibiótico.
