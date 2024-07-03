@@ -2,5 +2,6 @@
 .idea
 *.log
 tmp/
-
 *.pdf
+pdfa.xmpi
+curriculum-vitae.tex
