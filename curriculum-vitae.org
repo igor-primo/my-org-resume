@@ -78,7 +78,7 @@
 #+begin_export latex
 \name{Igor de Souza Carvalhal Primo}
 \photoR{2.8cm}{ego.jpeg}
-\tagline{Full-Stack Developer | Back-End Developer | DevOps Engineer}
+\tagline{Full-Stack Developer}
 #+end_export
 
 ** Personal Info :ignore:
